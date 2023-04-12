@@ -116,8 +116,8 @@ ol {
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        padding: 30px;
-        gap: 30px;
+        padding: 10px;
+        gap: 20px;
     }
 
     .index-pics-flex-container img{
@@ -688,22 +688,24 @@ ol {
         flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
-        padding: 20px;
-        gap: 30px;
+        padding: 10px;
+        margin-bottom: 20px;
+        gap: 20px;
     }
 
     .index-pics-flex-container img{
-        width: 280px;
-        height: 180px;
+        width: 300px;
+        height: 220px;
     }
 
     .photo-flex-container{
         display: flex;
+        flex-wrap: wrap;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 20px;
-        padding: 30px;
+        padding: 20px;
     }
 
     .photo-flex-container img{
