@@ -1,0 +1,58 @@
+.photo-flex-container {
+    @include mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        gap: 10px;
+    }
+
+    @include tablet {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+        gap: 20px;
+    }
+
+    @include desktop {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+        gap: 30px;
+    }
+
+    @include desktop-l {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+        gap: 30px;
+    }
+
+    img {
+        @include mobile {
+            width: 240px;
+            height: 180px;
+        }
+
+        @include tablet {
+            width: 420px;
+            height: 360px;
+        }
+
+        @include desktop {
+            width: 560px;
+            height: 340px;
+        }
+
+        @include desktop-l {
+            width: 620px;
+            height: 400px;
+        }
+    }
+}

@@ -1,0 +1,279 @@
+.ad-title {
+    @include mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        font-style: italic;
+        padding: 10px;
+    }
+
+    @include tablet {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        font-style: italic;
+        padding: 10px;
+    }
+
+    @include desktop {
+        display: flex;
+        justify-self: center;
+        align-items: center;
+        font-size: 20px;
+        font-style: italic;
+        padding: 10px;
+    }
+
+    @include desktop-l {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 22px;
+        font-style: italic;
+        padding: 10px;
+    }
+}
+
+.ads-flex-container1 {
+    @include mobile {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    @include tablet {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    @include desktop {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    @include desktop-l {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    iframe {
+        @include mobile {
+            width: 180px;
+            height: 160px;
+        }
+
+        @include tablet {
+            width: 300px;
+            height: 240px;
+        }
+
+        @include desktop {
+            width: 440px;
+            height: 360px;
+        }
+
+        @include desktop-l {
+            width: 500px;
+            height: 420px;
+        }
+    }
+}
+
+.ads-flex-container2 {
+    @include mobile {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    @include tablet {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    @include desktop {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    @include desktop-l {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    iframe {
+        @include mobile {
+            width: 180px;
+            height: 160px;
+        }
+
+        @include tablet {
+            width: 300px;
+            height: 240px;
+        }
+
+        @include desktop {
+            width: 440px;
+            height: 360px;
+        }
+
+        @include desktop-l {
+            width: 500px;
+            height: 420px;
+        }
+    }
+}
+
+.ads-text1 {
+    @include mobile {
+        display: flex;
+        justify-content: baseline;
+        align-items: center;
+        text-align: justify;
+        height: 60px;
+        width: 80px;
+        font-size: 8px;
+    }
+
+    @include tablet {
+        display: flex;
+        justify-content: baseline;
+        align-items: center;
+        text-align: justify;
+        height: 80px;
+        width: 140px;
+        font-size: 14px;
+    }
+
+    @include desktop {
+        display: flex;
+        justify-content: baseline;
+        align-items: center;
+        text-align: justify;
+        height: 320px;
+        width: 180px;
+        font-size: 16px;
+        margin-right: 120px;
+    }
+
+    @include desktop-l {
+        display: flex;
+        justify-content: baseline;
+        align-items: center;
+        text-align: justify;
+        height: 340px;
+        width: 200px;
+        font-size: 16px;
+        margin-right: 120px;
+    }
+}
+
+.ads-text2 {
+    @include mobile {
+        display: flex;
+        justify-content: baseline;
+        align-items: center;
+        text-align: justify;
+        height: 60px;
+        width: 80px;
+        font-size: 8px;
+    }
+
+    @include tablet {
+        display: flex;
+        justify-content: baseline;
+        align-items: center;
+        text-align: justify;
+        height: 80px;
+        width: 140px;
+        font-size: 14px;
+    }
+
+    @include desktop {
+        display: flex;
+        justify-content: baseline;
+        align-items: center;
+        text-align: justify;
+        height: 320px;
+        width: 180px;
+        font-size: 16px;
+        margin-left: 120px;
+    }
+
+    @include desktop-l {
+        display: flex;
+        justify-content: baseline;
+        align-items: center;
+        text-align: justify;
+        height: 340px;
+        width: 200px;
+        font-size: 16px;
+        margin-left: 120px;
+    }
+}
+
+.yt-vid {
+    @include mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    @include tablet {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    @include desktop {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    @include desktop-l {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    iframe {
+        @include mobile {
+            width: 260px;
+            height: 240px;
+        }
+
+        @include tablet {
+            width: 400px;
+            height: 280px;
+        }
+
+        @include desktop {
+            width: 560px;
+            height: 315px;
+        }
+
+        @include desktop-l {
+            width: 620px;
+            height: 440px;
+        }
+    }
+}

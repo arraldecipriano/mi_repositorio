@@ -1,0 +1,207 @@
+.contact-title {
+    @include mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        font-style: italic;
+        padding: 30px;
+    }
+
+    @include tablet {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        font-style: italic;
+        padding: 30px;
+    }
+
+    @include desktop {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        font-style: italic;
+        padding: 30px;
+    }
+
+    @include desktop-l {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 22px;
+        font-style: italic;
+        padding: 30px;
+    }
+}
+
+.form-flex-container {
+    @include mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 600px;
+        background-image: $bckgr-contact-mobile;
+        background-position: center;
+        background-size: cover;
+        margin-bottom: 80px;
+    }
+
+    @include tablet {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 600px;
+        background-image: $bckgr-contact-tablet;
+        background-position: center;
+        background-size: cover;
+        margin-bottom: 80px;
+    }
+
+    @include desktop {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 600px;
+        background-image: $bckgr-contact-desktop;
+        background-position: center;
+        background-size: cover;
+        margin-bottom: 80px;
+    }
+
+    @include desktop-l {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 600px;
+        background-image: $bckgr-contact-desktop;
+        background-position: center;
+        background-size: cover;
+        margin-bottom: 100px;
+    }
+
+    & .box-text {
+        @include mobile {
+            color: black;
+            font-size: 10px;
+        }
+
+        @include tablet {
+            color: black;
+            font-size: 12px;
+        }
+
+        @include desktop {
+            color: black;
+            font-size: 14px;
+        }
+
+        @include desktop-l {
+            color: black;
+            font-size: 14px;
+        }
+    }
+}
+
+.form-box-title {
+    @include mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        gap: 40px;
+    }
+
+    @include tablet {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        gap: 40px;
+    }
+
+    @include desktop {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        gap: 60px;
+    }
+
+    @include desktop-l {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 22px;
+        gap: 60px;
+    }
+}
+
+.button {
+    @include mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+        padding: 30px;
+    }
+
+    @include tablet {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+        padding: 40px;
+    }
+
+    @include desktop {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+        padding: 40px;
+    }
+
+    @include desktop-l {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 120px;
+        padding: 40px;
+    }
+
+    & .button-text {
+        @include mobile {
+            color: black;
+            font-size: 10px;
+            font-style: italic;
+        }
+
+        @include tablet {
+            color: black;
+            font-size: 14px;
+            font-style: italic;
+        }
+
+        @include desktop {
+            color: black;
+            font-size: 16px;
+            font-style: italic;
+        }
+
+        @include desktop-l {
+            color: black;
+            font-size: 18px;
+            font-style: italic;
+        }
+    }
+}

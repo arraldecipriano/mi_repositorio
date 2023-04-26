@@ -1,0 +1,101 @@
+footer {
+    @include mobile {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-image: $bckgr-header-footer;
+        background-size: cover;
+        background-position: bottom;
+        padding: 30px;
+        height: 10vh;
+    }
+
+    @include tablet {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-image: $bckgr-header-footer;
+        background-size: cover;
+        background-position: bottom;
+        padding: 30px;
+        height: 14vh;
+    }
+
+    @include desktop {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-image: $bckgr-header-footer;
+        background-size: cover;
+        background-position: bottom;
+        padding: 30px;
+        height: 16vh;
+    }
+
+    @include desktop-l {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-image: $bckgr-header-footer;
+        background-size: cover;
+        background-position: bottom;
+        padding: 40px;
+        height: 180px;
+    }
+}
+
+.footer-list {
+    @include mobile {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 80px;
+    }
+
+    @include tablet {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 100px;
+    }
+
+    @include desktop {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 140px;
+    }
+
+    @include desktop-l {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 160px;
+    }
+
+    i {
+        @include mobile {
+            font-size: 28px;
+        }
+
+        @include tablet {
+            font-size: 40px;
+        }
+
+        @include desktop {
+            font-size: 46px;
+        }
+
+        @include desktop-l {
+            font-size: 60px;
+        }
+    }
+}

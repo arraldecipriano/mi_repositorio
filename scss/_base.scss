@@ -1,0 +1,66 @@
+@mixin mobile {
+    @media (min-width: 320px) and (max-width: 576px) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (min-width: 577px) and (max-width: 768px) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: 769px) and (max-width:1200px) {
+        @content;
+    }
+}
+
+@mixin desktop-l {
+    @media (min-width: 1201px) and (max-width: 2700px) {
+        @content;
+    }
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    color: white;
+    font-family: "Tilt Warp", cursive;
+}
+
+body {
+    background-color: black;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+li {
+    :hover {
+        color: black;
+        transition-duration: 0.6s;
+        transition-delay: 0.1ms;
+    }
+
+    :not(:hover) {
+        transition-duration: 0.6s;
+    }
+}
+
+
+a {
+    text-decoration: none;
+
+    :hover {
+        color: black;
+        transition-duration: 0.6s;
+        transition-delay: 0.1ms;
+    }
+
+    :not(:hover) {
+        transition-duration: 0.6s;
+    }
+}
