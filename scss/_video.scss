@@ -39,7 +39,7 @@
 .ads-flex-container1 {
     @include mobile {
         display: flex;
-        flex-direction: row-reverse;
+        flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
     }
@@ -67,8 +67,8 @@
 
     iframe {
         @include mobile {
-            width: 180px;
-            height: 160px;
+            width: 260px;
+            height: 200px;
         }
 
         @include tablet {
@@ -91,7 +91,7 @@
 .ads-flex-container2 {
     @include mobile {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
     }
@@ -119,8 +119,8 @@
 
     iframe {
         @include mobile {
-            width: 180px;
-            height: 160px;
+            width: 260px;
+            height: 200px;
         }
 
         @include tablet {
@@ -146,9 +146,10 @@
         justify-content: baseline;
         align-items: center;
         text-align: justify;
-        height: 60px;
-        width: 80px;
         font-size: 8px;
+        height: 50px;
+        width: 50%;
+        padding: 8px;
     }
 
     @include tablet {
@@ -182,6 +183,10 @@
         font-size: 16px;
         margin-right: 120px;
     }
+
+    p {
+        text-align: justify;
+    }
 }
 
 .ads-text2 {
@@ -190,9 +195,10 @@
         justify-content: baseline;
         align-items: center;
         text-align: justify;
-        height: 60px;
-        width: 80px;
         font-size: 8px;
+        height: 50px;
+        width: 50%;
+        padding: 8px;
     }
 
     @include tablet {
@@ -259,21 +265,25 @@
         @include mobile {
             width: 260px;
             height: 240px;
+            padding: 10px;
         }
 
         @include tablet {
             width: 400px;
             height: 280px;
+            padding: 20px;
         }
 
         @include desktop {
             width: 560px;
             height: 315px;
+            padding: 20px;
         }
 
         @include desktop-l {
             width: 620px;
             height: 440px;
+            padding: 30px;
         }
     }
 }

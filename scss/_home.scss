@@ -1,8 +1,9 @@
 h1 {
     @include mobile {
         text-shadow: $title-shadow;
-        font-size: 26px;
+        font-size: 24px;
         font-style: italic;
+        margin-bottom: 16px;
     }
 
     @include tablet {

@@ -5,7 +5,7 @@
         justify-content: space-between;
         align-items: center;
         margin-bottom: 60px;
-        background-image: $bckgr-bio-mobile;
+        background-image: url(../img/mobile-bio.jpg);
         background-position: center;
         background-size: cover;
     }
@@ -17,7 +17,7 @@
         align-items: center;
         padding: 20px;
         margin-bottom: 100px;
-        background-image: $bckgr-bio-desktop;
+        background-image: url(../img/tablet-bio.jpg);
         background-position: center;
         background-size: cover;
     }
@@ -29,7 +29,7 @@
         align-items: center;
         padding: 40px;
         margin-bottom: 100px;
-        background-image: $bckgr-bio-desktop;
+        background-image: url(../img/desktop-bio.jpg);
         background-position: center;
         background-size: cover;
     }
@@ -41,7 +41,7 @@
         align-items: center;
         padding: 40px;
         margin-bottom: 100px;
-        background-image: $bckgr-bio-desktop;
+        background-image: url(../img/desktop-bio.jpg);
         background-position: top;
         background-size: cover;
     }

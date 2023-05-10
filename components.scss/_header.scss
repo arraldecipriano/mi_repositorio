@@ -7,7 +7,7 @@ header {
         background-image: $bckgr-header-footer;
         background-size: cover;
         background-position: top;
-        height: 140px;
+        height: 120px;
     }
 
     @include tablet {
@@ -25,7 +25,7 @@ header {
     }
 
     @include desktop {
-        display: flex;  
+        display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
@@ -51,43 +51,42 @@ header {
     }
 }
 
-.nav-list {
-    @include mobile {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        font-size: 12px;
-        gap: 10px;
-        padding: 20px;
-    }
+    .nav-list {
+        @include mobile {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            font-size: 8px;
+            gap: 8px;
+        }
 
-    @include tablet {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 12px;
-        gap: 10px;
-        padding: 16px;
-    }
+        @include tablet {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 12px;
+            gap: 10px;
+            padding: 16px;
+        }
 
-    @include desktop {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        font-size: 18px;
-        padding: 16px;
-        gap: 38px;
-    }
+        @include desktop {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            font-size: 18px;
+            padding: 16px;
+            gap: 38px;
+        }
 
-    @include desktop-l {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        font-size: 20px;
-        padding: 20px;
-        gap: 45px;
+        @include desktop-l {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            padding: 20px;
+            gap: 45px;
+        }
     }
-}
